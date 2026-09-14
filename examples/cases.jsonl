@@ -1,0 +1,4 @@
+{"id":"rag-short","prompt":"Кратко объясни RAG и укажи роль источника.","checks":{"contains":["поиск","источник"],"max_words":35}}
+{"id":"structured-plan","prompt":"Верни JSON-объект с ключами title и steps.","checks":{"json_object":true,"required_keys":["title","steps"]}}
+{"id":"no-certainty","prompt":"Объясни ограничение оценки модели без абсолютных обещаний.","checks":{"contains":["тест"],"not_contains":["100%","гарантирую"],"max_words":30}}
+{"id":"kazakh-data","prompt":"Деректер сапасын қалай тексереміз?","checks":{"contains":["деректер","тексеру"],"max_words":35}}
